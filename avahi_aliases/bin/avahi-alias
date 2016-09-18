@@ -44,8 +44,8 @@ class AvahiAliases:
         self.logger.setLevel(logging.DEBUG)
         # formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
         # self.logger.setFormatter(formatter)
-        handler = logging.handlers.SysLogHandler(address = '/dev/log')
-        self.logger.addHandler(handler)
+        # handler = logging.handlers.SysLogHandler(address = '/dev/log')
+        # self.logger.addHandler(handler)
 
     def get_aliases(self, path=None):
         """ Steps through all config alias files and builds a set of aliases """
